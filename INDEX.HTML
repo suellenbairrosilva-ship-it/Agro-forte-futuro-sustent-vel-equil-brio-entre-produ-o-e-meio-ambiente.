@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agro Forte, Futuro Sustentável</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#f4f8f2;
+      color:#2b2b2b;
+      line-height:1.6;
+    }
+
+    header{
+      height:100vh;
+      background:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1600&auto=format&fit=crop');
+      background-size:cover;
+      background-position:center;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      color:white;
+      padding:20px;
+    }
+
+    .hero{
+      max-width:800px;
+    }
+
+    .hero h1{
+      font-size:4rem;
+      margin-bottom:20px;
+      text-transform:uppercase;
+    }
+
+    .hero p{
+      font-size:1.3rem;
+      margin-bottom:30px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:15px 35px;
+      background:#4CAF50;
+      color:white;
+      text-decoration:none;
+      border-radius:8px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:#2e7d32;
+      transform:scale(1.05);
+    }
+
+    section{
+      padding:80px 10%;
+    }
+
+    .section-title{
+      text-align:center;
+      margin-bottom:50px;
+    }
+
+    .section-title h2{
+      font-size:2.5rem;
+      color:#2e7d32;
+      margin-bottom:10px;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:white;
+      border-radius:15px;
+      overflow:hidden;
+      box-shadow:0 5px 15px rgba(0,0,0,0.1);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-10px);
+    }
+
+    .card img{
+      width:100%;
+      height:220px;
+      object-fit:cover;
+    }
+
+    .card-content{
+      padding:25px;
+    }
+
+    .card-content h3{
+      color:#2e7d32;
+      margin-bottom:15px;
+    }
+
+    .impact{
+      background:#2e7d32;
+      color:white;
+      text-align:center;
+    }
+
+    .impact-container{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:40px;
+      margin-top:40px;
+    }
+
+    .impact-box{
+      min-width:200px;
+    }
+
+    .impact-box h3{
+      font-size:3rem;
+    }
+
+    footer{
+      background:#1b1b1b;
+      color:#ccc;
+      text-align:center;
+      padding:25px;
+    }
+
+    @media(max-width:768px){
+      .hero h1{
+        font-size:2.5rem;
+      }
+
+      .hero p{
+        font-size:1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="hero">
+      <h1>Agro Forte, Futuro Sustentável</h1>
+      <p>
+        Promovendo o equilíbrio entre produção agrícola, preservação ambiental
+        e desenvolvimento sustentável para as próximas gerações.
+      </p>
+      <a href="#sustentabilidade" class="btn">Saiba Mais</a>
+    </div>
+  </header>
+
+  <section id="sustentabilidade">
+    <div class="section-title">
+      <h2>Sustentabilidade no Campo</h2>
+      <p>
+        O agronegócio moderno cresce com inovação, responsabilidade ambiental
+        e respeito aos recursos naturais.
+      </p>
+    </div>
+
+    <div class="cards">
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1200&auto=format&fit=crop" alt="Plantação sustentável">
+        <div class="card-content">
+          <h3>Produção Sustentável</h3>
+          <p>
+            Técnicas agrícolas modernas aumentam a produtividade sem comprometer
+            o meio ambiente.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?q=80&w=1200&auto=format&fit=crop" alt="Natureza preservada">
+        <div class="card-content">
+          <h3>Preservação Ambiental</h3>
+          <p>
+            A conservação das florestas, rios e biodiversidade é essencial para
+            garantir equilíbrio ecológico.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=1200&auto=format&fit=crop" alt="Tecnologia no agro">
+        <div class="card-content">
+          <h3>Tecnologia e Inovação</h3>
+          <p>
+            O uso de tecnologia no campo reduz desperdícios e otimiza recursos
+            naturais.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="impact">
+    <div class="section-title">
+      <h2>Impactos Positivos</h2>
+      <p>
+        Agricultura consciente gera benefícios econômicos, sociais e ambientais.
+      </p>
+    </div>
+
+    <div class="impact-container">
+
+      <div class="impact-box">
+        <h3>+70%</h3>
+        <p>Eficiência na produção</p>
+      </div>
+
+      <div class="impact-box">
+        <h3>-40%</h3>
+        <p>Redução do desperdício</p>
+      </div>
+
+      <div class="impact-box">
+        <h3>100%</h3>
+        <p>Compromisso sustentável</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      © 2026 Agro Forte • Futuro Sustentável | Equilíbrio entre produção e meio ambiente
+    </p>
+  </footer>
+
+</body>
+</html>
